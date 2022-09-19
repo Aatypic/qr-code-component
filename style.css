@@ -31,37 +31,28 @@ body {
   justify-items: center;
 }
 
-.card__container {
+.card {
   display: flex;
   flex-direction: column;
   background-color: var(--clr-white);
   border-radius: 1rem;
   padding: 1rem;
   width: 302px;
+  gap: 1rem;
 }
 
-.top-card__container {
-  height: min-content;
-}
 img {
   width: 100%;
   border-radius: 10px;
 }
 
-.bottom-card__container {
-  display: flex;
-  flex-direction: column;
-  padding: 1rem 0.8rem;
-  gap: 1rem;
-}
-
-.hero {
+h1 {
   font-weight: var(--fweight-700);
   color: var(--clr-darkblue);
   font-size: 1.4em;
 }
 
-.description {
+p {
   font-size: 1em;
   font-weight: var(--fweight-400);
   color: var(--clr-grayblue);
